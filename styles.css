@@ -115,4 +115,31 @@ body {
   .social-links a:hover {
     text-decoration: underline;
   }
+.carousel__arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  background-image: url("ruta-a-tu-icono"); /* Reemplaza con la ruta a tu icono de flecha */
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  z-index: 10;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.carousel__arrow:hover {
+  opacity: 1;
+}
+
+.carousel__arrow--left {
+  left: 10px;
+}
+
+.carousel__arrow--right {
+  right: 10px;
+}
   
